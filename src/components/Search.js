@@ -3,19 +3,7 @@ import axios from "axios";
 
 
  function Search() {
-    // const [photo  , setPhoto]=useState("")
-    // const [result  , setResult]=useState([])
-
-
-    // const changePhoto=()=>{
-    //     axios.get('https://api.unsplash.com/search/photos?page=1&query=${photo}&client_id=16Z46ZSCwGuywdcGtMb_8oTKC-J9Ir_PxRxubhixF_0')
-    //     .then((response)=>{
-            
-    //         setResult(response.data.results);
-
-
-    //     })
-    // }
+  
     const [photo, setPhoto] = useState("")
     const [result, setResult] = useState([])
 
